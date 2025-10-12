@@ -1,0 +1,118 @@
+.event-list{
+    margin-top: 30px;
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    justify-content: center;
+}
+.search{
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid olive;
+    font-size: medium;
+}
+.search:focus {
+  border-color: olivedrab;
+}
+.btn{
+    padding: 15px 30px;
+    background-color: olive;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-family: "Libertinus Serif Display", system-ui;
+    
+}
+.btn:hover {
+  background: rgb(90, 90, 10);
+}
+.card{
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px ;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    
+    
+
+}
+.event-card{
+    background-color: transparent;
+    border: solid olive;
+    padding: 30px;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+    
+}
+.mid-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.details{
+    font-size: medium;
+    font-family: "Libertinus Serif Display", system-ui;
+}
+.title{
+font-family: "Libertinus Serif Display", system-ui;
+font-weight: bold;
+font-size: x-large;
+}
+.discription{
+    font-family: "Libertinus Serif Display", system-ui;
+    font-size: larger;
+}
+.status{
+    color: grey;
+    text-align: right;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    
+    
+}
+.view-btn{
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: olive;
+    color: white;
+    gap: 5px;
+    display: flex;
+    text-decoration: none;
+
+}
+.edit-btn{
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: rgb(54, 54, 14);
+    color: white;
+    gap: 5px;
+    display: flex;
+    text-decoration: none;
+}
+.delete-btn{
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: rgb(162, 19, 19);
+    color: white;
+    gap: 5px;
+    display: flex;
+    text-decoration: none;
+}
+.view-btn:hover {
+  transform: scale(1.03);
+}
+.edit-btn:hover {
+  transform: scale(1.03);
+}
+.delete-btn:hover {
+ transform: scale(1.03);
+}
