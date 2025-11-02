@@ -93,12 +93,6 @@ Simple-Event-Management-System/
 | PUT    | /api/v1/updateEvent/{id} | Update an event by ID    |
 | DELETE | /api/v1/deleteEvent/{id} | Delete an event by ID    |
 
----
-
-## 🎥 Demo Video
-Watch the screen recording demo:
-
-[Watch Demo](assets/event-management-system.mp4)
 
 ---
 
