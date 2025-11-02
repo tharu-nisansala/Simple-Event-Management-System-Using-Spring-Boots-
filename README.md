@@ -98,7 +98,7 @@ Simple-Event-Management-System/
 ## 🎥 Demo Video
 Watch the screen recording demo:
 
-[Watch Demo](./assets/event-management-system.mp4)
+[Watch Demo](assets/event-management-system.mp4)
 ---
 
 ## 💡 Notes
