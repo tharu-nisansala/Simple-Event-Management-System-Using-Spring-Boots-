@@ -99,6 +99,7 @@ Simple-Event-Management-System/
 Watch the screen recording demo:
 
 [Watch Demo](assets/event-management-system.mp4)
+
 ---
 
 ## 💡 Notes
